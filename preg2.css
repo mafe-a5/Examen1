@@ -9,12 +9,6 @@ body{
     font-style: normal;
 }
 
-img{
-    width:200px;
-    padding-left: 240px;
-    padding-top: 20px;
-}
-
 .menu ul{
     margin-right: 20px;
     list-style: none;
@@ -37,4 +31,9 @@ img{
 
 .aside img{
     padding-left: 50px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px
 }
