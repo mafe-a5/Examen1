@@ -1,0 +1,40 @@
+body{
+    margin: 0px
+}
+
+.title{
+    padding: 5px;
+    background-color:#12AAFF;
+    font-size: smaller;
+    font-style: normal;
+}
+
+img{
+    width:200px;
+    padding-left: 240px;
+    padding-top: 20px;
+}
+
+.menu ul{
+    margin-right: 20px;
+    list-style: none;
+}
+
+.menu{
+    width: auto;
+    background-color:#12AAFF;
+    font-size: medium;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    gap: 20px
+}
+.section, .aside{
+    padding: 0px;
+}
+
+.aside img{
+    padding-left: 50px;
+}
